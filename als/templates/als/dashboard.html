@@ -1,0 +1,11 @@
+{% extends "als/base.html" %} 
+{% block main %}
+   <div class="d-flex justify-content-between">
+    <div>
+        <h1>Hang tight, {{user.first_name}} :)</h1>
+        <h2>content comming soon</h2>
+        <h5><a href="{% url 'logout' %}">Logout</a></h5>
+
+    </div>
+   </div>
+{% endblock %}
